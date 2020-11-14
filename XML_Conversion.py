@@ -6,7 +6,7 @@ import numpy as np
 
 os.getcwd()
 os.chdir('/Users/edgarakopyan/Desktop/ESG Project')
-tree = etree.parse("20201013-gleif-concatenated-file-lei2 copy.xml")
+tree = etree.parse("20201013-gleif-concatenated-file-lei2.xml")
 root = tree.getroot()
 
 LEI = []
